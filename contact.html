@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBAN EDGE | Contact Us</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">URBAN <span>EDGE</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inventory.html">Shop</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="cart-icon">
+            <a href="#"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a>
+        </div>
+    </nav>
 
+    <section class="contact-hero">
+        <div class="hero-overlay">
+            <h1>GET IN TOUCH</h1>
+            <p>We're here to help 24/7</p>
+        </div>
+    </section>
+
+    <section class="contact-grid">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>SEND US A MESSAGE</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select id="subject" required>
+                        <option value="" disabled selected>Select Subject</option>
+                        <option value="order">Order Inquiry</option>
+                        <option value="collab">Collab Request</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">SEND MESSAGE</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h2>FIND US</h2>
+            <div class="info-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>OUR FLAGSHIP STORE</h3>
+                <p>123 Graffiti Lane<br>Brooklyn, NY 11205</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-clock"></i>
+                <h3>HOURS</h3>
+                <p>Mon-Fri: 11AM - 8PM<br>Sat-Sun: 10AM - 9PM</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-phone-alt"></i>
+                <h3>PHONE</h3>
+                <p>(555) 123-4567</p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s150%20Park%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+        </iframe>
+    </section>
+
+    <section class="faq-section">
+        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <button class="faq-question">How long does shipping take? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>We ship within 1-2 business days. Delivery takes 3-5 days in the US, 7-14 days internationally.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What's your return policy? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>30-day returns for unworn items with tags. Email us at returns@urbanedge.com for authorization.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Do you do collaborations? <i class="fas fa-chevron-down"></i></button>
+                <div class="faq-answer">
+                    <p>Yes!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      
+    </footer>
+
+    <script src="scripts/contact.js"></script>
+</body>
+</html>
