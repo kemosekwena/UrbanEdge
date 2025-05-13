@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBAN EDGE | Inventory</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">URBAN <span>EDGE</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inventory.html">Shop</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="cart-icon">
+            <a href="#"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a>
+        </div>
+    </nav>
+
+    <section class="inventory-header">
+        <h1>SHOP ALL</h1>
+        <p>Explore our latest streetwear collection</p>
+    </section>
+  
+    <div class="filter-bar">
+        <div class="filter-group">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="hoodies">Hoodies</option>
+                <option value="tees">T-Shirts</option>
+                <option value="accessories">Accessories</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="sort">Sort by:</label>
+            <select id="sort">
+                <option value="newest">Newest</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+            </select>
+        </div>
+    </div>
+
+    <section class="inventory-grid">
+        <div class="inventory-item" data-category="hoodies" data-price="49.99">
+            <img src="images/hoodie.jpg" alt="Graffiti Hoodie">
+            <h3>Graffiti Hoodie</h3>
+            <p class="price">$49.99</p>
+            <button class="btn add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="inventory-item" data-category="tees" data-price="29.99">
+            <img src="images/tshirt.jpg" alt="Street Logo Tee">
+            <h3>Street Logo Tee</h3>
+            <p class="price">$29.99</p>
+            <button class="btn add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="inventory-item" data-category="accessories" data-price="24.99">
+            <img src="images/cap.jpg" alt="Snapback Cap">
+            <h3>Snapback Cap</h3>
+            <p class="price">$24.99</p>
+            <button class="btn add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="inventory-item" data-category="hoodies" data-price="54.99">
+            <img src="images/hoodie2.jpg" alt="Camo Hoodie">
+            <h3>Camo Hoodie</h3>
+            <p class="price">$54.99</p>
+            <button class="btn add-to-cart">ADD TO CART</button>
+        </div>
+        <!-- Product 5 -->
+        <div class="inventory-item" data-category="tees" data-price="34.99">
+            <img src="images/tshirt2.jpg" alt="Graphic Tee">
+            <h3>Graphic Tee</h3>
+            <p class="price">$34.99</p>
+            <button class="btn add-to-cart">ADD TO CART</button>
+        </div>
+        <!-- Product 6 -->
+        <div class="inventory-item" data-category="accessories" data-price="19.99">
+            <img src="images/beanie.jpg" alt="Urban Beanie">
+            <h3>Urban Beanie</h3>
+            <p class="price">$19.99</p>
+            <button class="btn add-to-cart">ADD TO CART</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 URBAN EDGE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/inventory.js"></script>
+</body>
+</html>
